@@ -15,7 +15,4 @@ We've adapted the holistic, nature-centered methods we witnessed in the field to
 **-Inform Environmental Policy**
 
 
-
-*Peace and love only, Stephen J. Quigley, University of Pittsburgh*
-
 Check out our other cool coding tools [HERE](http://pitt.edu/~sjq4/PittFuego/#Introductions)
