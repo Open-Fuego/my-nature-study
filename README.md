@@ -1,38 +1,45 @@
-#I am...A Project in Becoming
+# My Nature Study Tool
 
-Abstract: This coding tool is a great way to break the ice at begining of your school year. Why not use code to help your students introduce themselves? It's an easy way for you to introduce your students to a little bit of computer science and build their coding literacy.
+Nature studies offer Finnish students time to engage with nature and to learn about their own environmental impact. Finnish schools adopt a transdisciplinary approach to understanding environmental education, which contrasts with the U.S. approaches, where environmental education is almost solely taught during science courses and touched on only briefly through earth science standards. By un-disciplining environmental education, Finnish citizens have some of the most advanced content knowledge as it relates to climate change, and their policies, cultural practices, and aesthetics reflect that knowledge.
 
-Students work through the prompts in the index.html code to construct their own web page that exlains who they are and where they are going. I ask that my students actually present their page to the rest of the class. But before we do so--and even while the presentations are going on--I give them time to work together to debug their projects. 
+We've adapted the holistic, nature-centered methods we witnessed in the field to create My Nature Study, a coding template offering students an opportunity to work with tools to construct meaning in their world. Through this project of languaging and communicating their relationship with the natural environment, students will learn essential computer science concepts and learn to read/edit .html and .css documents.
+ 
+### This template includes responsive design and cool tools like modal views. 
 
-This template also allows the user to mix and match div. blocks should students wish to further customize their work. It's a great introduction to coding that will allow them to use our other tools found: [HERE](http://pitt.edu/~sjq4/PittFuego/#Introductions)
+**-Commune with Nature**
 
-    
+**-Use Tools to construct meaning**
+
+**-Scaffold Multimodal Learning**
+
+**-Inform Environmental Policy**
+
+
+Learn more about our Nature Study project: [HERE](https://sjquigley.github.io/mutimodal-nature-studies/)
+
+
 ## Get started!
 
-1. Create a GitHub account. 
+1. Go to repository Electrate Fuego repository: [Here](https://github.com/Pitt-Fuego/my-nature-study)
 
-2. Go to the I-am-a-project-in-becoming  repository: [HERE](https://github.com/sjquigley/I-am-a-project-in-becoming) 
+2. Click "Code" then "Download ZIP" to your local computer. 
 
-3. Click "Code": Download ZIP to local computer. 
+3. Find this folder in your downloads. Move this folder to a secure place. You will return to this folder to manage your scripts and other assets like images, pdfs, etcetera. 
 
-4. Go ahead and put these files in a secure place (folder) where you will be able to find them and where you will organize your other assets like images, pdfs, etcetera. 
+4. Download and/or open a text editor like [brackets.io](https://brackets.io), [atom.io](https://atom.io), or [notepad-plus-plus.org](notepad-plus-plus.org). 
 
-5. Download and/or open a text editor like [brackets.io](https://brackets.io), [atom.io](https://atom.io), or [notepad-plus-plus.org](notepad-plus-plus.org). 
+5. Use the text editor to open the style.css and index.html documents from your project folder.  
 
-6. Use the text editor to open the style.css and index.html documents from your project folder.  
+6. Start working with code by reading through the index.html where you'll find instructions on how to build your own web text! 
 
-7. Start by reading the index.html in text editor where you'll find instructions on how to build your own web text!
+7. Once you have modified and added your files to your project file, you will want to publish to the web. GitHub provides a good solution for "free." Create a GitHub account, then create a new repository for this webtext. Click  "uploading an existing file," (push) your files into this repository. You'll need ALL of your assets to make your webtext function properly. Upload assets, then hit "Commit changes." 
 
-8. Once you have modified and added your files to your project file, return to your GitHub page and create a new repository. Click  upload (push) your files. Upload, then hit "Commit!" 
-
-9. Go to repository settings, scroll down to Github pages, change setting from "none" to "main."  
+9. Now go to your repository "settings." Scroll down to "GitHub Pages" and change the setting from "none" to "main." Hit "Save"
 
 10. This will provide you with a published GitHub URL.
 
-11. Test the URL. Magic, no? Actually, it's computer science.  
+11. Test the URL in a browser. Magic, no? Actually, it's computer science.  
+
 
 Check out our other cool coding tools [HERE](https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/)
-
-
-
 
