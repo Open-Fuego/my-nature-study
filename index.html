@@ -408,6 +408,18 @@ Your browser does not support the audio element.
 <br>
 <br>
     
+    <!-- Stops video/audio from playing on modal close -->
+    <script>
+         $(function(){
+    $("body").on('hidden.bs.modal', function (e) {
+    var $iframes = $(e.target).find("iframe");
+    $iframes.each(function(index, iframe){
+      $(iframe).attr("src", $(iframe).attr("src"));
+    });
+  });
+});
+</script>
+    
    </body>
      </html>
 
@@ -730,7 +742,7 @@ Your browser does not support the audio element.
     
       <!-- Modal 13 -->
   <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+      <div class="modal-dialog-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -739,11 +751,14 @@ Your browser does not support the audio element.
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-6">
               <div class="modal-body">
-                 <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                   </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
+                  <i class="fas fa-times mr-1"></i>
                   Close Project</button>
               </div>
             </div>
@@ -751,7 +766,6 @@ Your browser does not support the audio element.
         </div>
       </div>
     </div>
-  </div>
     
       <!-- Modal 14 -->
   <div class="portfolio-modal modal fade" id="portfolioModal14" tabindex="-1" role="dialog" aria-hidden="true">
@@ -784,7 +798,7 @@ Your browser does not support the audio element.
     
       <!-- Modal 15 -->
   <div class="portfolio-modal modal fade" id="portfolioModal15" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -793,12 +807,14 @@ Your browser does not support the audio element.
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-6">
               <div class="modal-body">
-               <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  
+                  <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                   </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
+                  <i class="fas fa-times mr-1"></i>
                   Close Project</button>
               </div>
             </div>
@@ -806,11 +822,10 @@ Your browser does not support the audio element.
         </div>
       </div>
     </div>
-  </div>
     
       <!-- Modal 16 -->
   <div class="portfolio-modal modal fade" id="portfolioModal16" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+      <div class="modal-dialog-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -819,12 +834,14 @@ Your browser does not support the audio element.
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-6">
               <div class="modal-body">
-             <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  
+                  <div class="embed-responsive embed-responsive-16by9">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                   </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
+                  <i class="fas fa-times mr-1"></i>
                   Close Project</button>
               </div>
             </div>
@@ -832,11 +849,10 @@ Your browser does not support the audio element.
         </div>
       </div>
     </div>
-  </div>
     
       <!-- Modal 17 -->
   <div class="portfolio-modal modal fade" id="portfolioModal17" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+    <div class="modal-dialog-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -845,12 +861,14 @@ Your browser does not support the audio element.
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-6">
               <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  
+                  </div>
+                   </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
+                  <i class="fas fa-times mr-1"></i>
                   Close Project</button>
               </div>
             </div>
@@ -858,11 +876,10 @@ Your browser does not support the audio element.
         </div>
       </div>
     </div>
-  </div>
     
        <!-- Modal 18 -->
   <div class="portfolio-modal modal fade" id="portfolioModal18" tabindex="-1" role="dialog" aria-hidden="true">
-    <div class="modal-lg">
+       <div class="modal-dialog-lg">
       <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
           <div class="lr">
@@ -871,12 +888,14 @@ Your browser does not support the audio element.
         </div>
         <div class="container">
           <div class="row">
-            <div class="col-lg-8 mx-auto">
+            <div class="col-lg-6">
               <div class="modal-body">
+                  <div class="embed-responsive embed-responsive-16by9">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/PhPLTpqG0pU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                  
+                  </div>
+                   </div>
                 <button class="btn btn-primary" data-dismiss="modal" type="button">
-                  <i class="fas fa-times"></i>
+                  <i class="fas fa-times mr-1"></i>
                   Close Project</button>
               </div>
             </div>
@@ -884,47 +903,7 @@ Your browser does not support the audio element.
         </div>
       </div>
     </div>
-  </div>   
  
 
 
-
- <!-- Arrangement Methods
-
-
-Classical Argument Method (Deductive)
-
-1.Background 2. Thesis 3. Supporting Claims 4. Refutation or concession 5. Summary
-
  
-
-Toulmin Method
-
-1. Data 2.  Claim. 3. Warrant. 4. Backing 5. Qualifier 5. Rebuttal
-
- 
-
-ABT (Randy Olsen’s And, but, therefore) 
-
-Assertion A. (thesis) 2. And…Assertion A or perhaps B 3. But…show problems.(antithesis) 4. Therefore… (Synthesis)  
-(You might be asking, where is the MRAD? Method, Result and Discussion? Read whatRandy has to say about it. :)
-
-http://2.droppdf.com/files/9I9r2/houston-we-have-a-narrative-why-science-needs-story.pdf)
-
- 
-
-Joseph Campbell Hero Cycle
-
-Problem Arises 2. Call to action 3. Journey to find new knowledge/mentor/technology 4. Failure/Revelation 5. Rebirth 6. Return home solve problem
- 
-
-In Medias Res
-
-Here is a method. 2. Here is how the method is perfomed. 3. This is the problem for which it was developed. 4. Here is theory/history of how it developed  5. This is the result of its implementation 6. This is a potential problem. 7. Here is how we might address these problems.
- 
-
-Exploratory Method (Inductive Method)
-
-Question 2. Approach A Summary 3. Approach A analysis and commentary (dialectic thinking). 4. Approach B Summary 5. Approach B analysis and commentary (dialectic thinking). 6. Your Position Summary 7. Analysis and Commentary to support position.
-
--->   
