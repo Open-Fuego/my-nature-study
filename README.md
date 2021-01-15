@@ -20,7 +20,7 @@ Learn more about our Nature Study project: [HERE](https://sjquigley.github.io/mu
 
 ## Get started!
 
-1. Go to repository Electrate Fuego repository: [Here](https://github.com/Pitt-Fuego/my-nature-study)
+1. Go to repository the My Nature Study repository: [Here](https://github.com/Open-Fuego/my-nature-study)
 
 2. Click "Code" then "Download ZIP" to your local computer. 
 
@@ -41,5 +41,5 @@ Learn more about our Nature Study project: [HERE](https://sjquigley.github.io/mu
 11. Test the URL in a browser. Magic, no? Actually, it's computer science.  
 
 
-Check out our other cool coding tools [HERE](https://pitt-fuego.github.io/Pitt-Fuego-Coding-Tools/)
+Check out our other cool coding tools [HERE](https://open-fuego.github.io/Open-Fuego-Coding-Tools/)
 
